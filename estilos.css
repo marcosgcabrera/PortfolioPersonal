@@ -22,7 +22,9 @@ body{
 }
 .navbar h1{
     font-size: 35px;
+    color: whitesmoke;
 }
+
 .navbar a{
     color: whitesmoke;
     text-decoration: none;
@@ -36,3 +38,34 @@ body{
 .navbar li{
     float: left;
 }
+-->
+footer{
+    background-color:#333;
+}
+.navfooter{
+    margin: 30px 0;
+}
+.navfooter ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+ul{
+    list-style-type: none;
+}
+.navfooter ul li a{
+    color: whitesmoke;
+    margin: 50px ;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: whitesmoke;
+}
+
