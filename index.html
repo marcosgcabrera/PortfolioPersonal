@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyWebsite</title>
-    <link rel="icon" href="/recursos/icon.png" type="image/x-icon">
+    <link rel="icon" href="recursos/icon.png" type="image/x-icon"> <!-- Corrige la ruta -->
     <link rel="stylesheet" href="estilos.css">
     <script src="codigo.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,54 +15,59 @@
 
 <body>
     <header>
-
+        <hr>
         <nav class="navbar">
             <div>
                 <h1>WELCO<span>M</span>E</h1>
-            </div> 
-
+            </div>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Projects</a></li>
             </ul>
-
         </nav>
-
     </header>
-    <hr>
-    <section>
 
+    <section>
+        <hr>
         <div class="homeimg">
-            <img src="/recursos/1735530363807.jpg" alt="profilepic">
+            <img src="recursos/1735530363807.jpg" alt="profilepic">
         </div>
         <div class="homecontent">
-            <hr>
             <h2>Hello! My name is <span>Marcos</span></h2>
             <p>"I'm a developer and QA automation in training, from the northern area of Buenos Aires. I have a strong passion for technology and sports, with a focus on <span>web development</span> and <span>testing automation</span>. These are my main areas of interest. As for hobbies and passions, professional wrestling is something I truly <span>love</span>."</p>
-
+            <div class="media">
+                <a href="https://github.com/marcosgcabrera?tab=repositories" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cabreramarcosg" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
         </div>
+        
 
+        <div id="skills">
+            <h2>Here you got a list of my current technologies</h2>
+            <div class="skillsbox">
+                <img class="frontend"src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/267858216/original/6dcc687c67a4c7e76037df737c0be5a1e132370e/create-your-website-using-html-css-and-javascript.png" alt="htmlcssjs">
+                <img class="csharp"src="https://media.licdn.com/dms/image/D4D12AQEhH3cHujKu2g/article-cover_image-shrink_720_1280/0/1655739793716?e=2147483647&v=beta&t=8QU8E7CrudOg7SCrXDFw7-JIclfcBGKg6JflX7uU_Ns" alt="">
+                <img class="microsoftserver" src="https://www.striim.com/wp-content/themes/striim2022/images/connectors_icons/white/microsoftsqlserver.png" alt="">
+                <img class="postman"src="https://i.ytimg.com/vi/7htJVXgeLvw/hqdefault.jpg" alt="">
+            </div>
         </div>
     </section>
     
-
     <footer>
-        <div class = "navfooter">
+        <div class="navfooter">
+            <hr>
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
             </ul>
         </div>
-
-        <div class = "footerbottom">
+        <div class="footerbottom">
             <p>Copyright &copy;2025 Developed by Marcos Cabrera</p>
         </div>
-
     </footer>
-
 </body>
 </html>

@@ -27,7 +27,7 @@ h1{
     padding-left: 20px;
 }
 
-h1 span{
+span{
     color: rgb(236, 41, 99);
 }
 
@@ -147,13 +147,7 @@ ul{
     margin-top: -57%;
 }
 
-.homecontent h2 span{
-    color: rgb(236, 41, 99);
-}
 
-.homecontent p span {
-    color: rgb(236, 41, 99);
-}
 
 .homecontent h3{
     position:  absolute;
@@ -161,4 +155,46 @@ ul{
     margin-top: -35%;
 }
 
+.media {
+    font-size: 150px;
+    position: absolute;
+    margin-top: -40%;
+    margin-inline-start: 55%;
+    display: block;
+}
 
+.media a{
+    color: rgb(236, 41, 99);
+}
+
+#skills h2{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.skillsbox .frontend{
+    display: block;
+    margin: auto;
+}
+
+.skillsbox .csharp{
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.skillsbox .microsoftserver{
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.skillsbox .postman{
+    display: block;
+    width: 27%;
+    margin: auto;
+}
