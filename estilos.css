@@ -2,28 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    background-color: #000000;
+    font-family: "zen Dots";
 }
-body{
-    margin: 0px;
+
+header{
+    padding-top: 10px;
 }
+
+section{
+    position: relative;
+    min-height: 100vh;
+}
+
+section p{
+    color: whitesmoke;
+    padding-right: 100px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+h1 span{
+    color: rgb(236, 41, 99);
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+
 .navbar ul{
     list-style-type: none;
-    background-color: #333;
+    background-color: #000000;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    font-size: 20px;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
+    background-color: #000000;
+    padding: 1.5px;
 }
-.navbar h1{
-    font-size: 35px;
-    color: whitesmoke;
-}
+
 
 .navbar a{
     color: whitesmoke;
@@ -32,27 +62,40 @@ body{
     display: block;
     text-align: center;
 }
+
 .navbar a:hover{
-    background-color: rgb(41, 103, 236);
+    background-color: rgb(236, 41, 99);
 }
+
 .navbar li{
     float: left;
 }
+
 -->
-footer{
-    background-color:#333;
+
+.footer{
+    background-color:#000000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;;
 }
+
 .navfooter{
     margin: 30px 0;
+    
 }
+
 .navfooter ul{
     display: flex;
     justify-content: center;
     padding-top: 25px;
 }
+
 ul{
     list-style-type: none;
 }
+
 .navfooter ul li a{
     color: whitesmoke;
     margin: 50px ;
@@ -60,12 +103,62 @@ ul{
     font-size: 1.3em;
 }
 
+.navfooter a:hover{
+    background-color: rgb(236, 41, 99);
+}
+
 .footerbottom{
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     padding: 20px;
     text-align: center;
 }
+
 .footerbottom p{
     color: whitesmoke;
+    background-color: rgb(31, 31, 31);
 }
+
+.homeimg img {
+    position: relative;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.homeimg img:hover{
+    border: 5px solid rgb(236, 41, 99)
+}
+
+
+.homecontent p{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -50%;
+    font-size: 25px
+}
+
+.homecontent h2{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -57%;
+}
+
+.homecontent h2 span{
+    color: rgb(236, 41, 99);
+}
+
+.homecontent p span {
+    color: rgb(236, 41, 99);
+}
+
+.homecontent h3{
+    position:  absolute;
+    margin-left: 40%;
+    margin-top: -35%;
+}
+
 
